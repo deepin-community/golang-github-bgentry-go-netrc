@@ -1,0 +1,34 @@
+golang-github-bgentry-go-netrc (0.0~git20140422.9fd32a8-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Apply multi-arch hints.
+    + golang-github-bgentry-go-netrc-dev: Add Multi-Arch: foreign.
+
+  [ Shengjing Zhu ]
+  * Update uscan watch to version 4
+  * Update Section to golang
+  * Update maintainer address to team+pkg-go@tracker.debian.org
+  * Bump debhelper-compat to 13
+  * Update Standards-Version to 4.5.1 (no changes)
+  * Add Rules-Requires-Root
+  * Add autopkgtest-go
+  * Update uploader email address
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 17 Jan 2021 05:37:13 +0800
+
+golang-github-bgentry-go-netrc (0.0~git20140422.0.9fd32a8-1) unstable; urgency=medium
+
+  * Initial release (Closes: #869517)
+
+ -- Stephen Gelman <ssgelm@gmail.com>  Mon, 03 Jul 2017 04:39:58 +0000
